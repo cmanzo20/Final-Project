@@ -3,9 +3,14 @@ body {
     color: #48FE16;
 }
 
-h1{
+h1 {
     text-align: center;
 }
-p{
+
+p {
     text-align: center;
+}
+
+ul {
+    list-style-type: square;
 }
