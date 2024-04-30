@@ -27,3 +27,12 @@ ul {
     list-style-type: none;
     font-size:smaller;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    color: #00FF2A;
+}
