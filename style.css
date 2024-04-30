@@ -36,3 +36,17 @@ nav {
 a {
     color: #00FF2A;
 }
+
+@media (max-width:480px) {
+    nav {
+        flex-wrap: wrap;
+    }
+}
+
+
+@media (max-width:480px) {
+    body {
+        border: none;
+        padding: 0%;
+    }
+}
