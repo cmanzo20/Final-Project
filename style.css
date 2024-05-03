@@ -20,6 +20,11 @@ h2 {
     color: #18EEF2;
 }
 
+h3 {
+    text-align: center;
+    color: #18EEF2;
+}
+
 p {
     text-align: center;
 }
@@ -28,7 +33,7 @@ ul {
     list-style-type: square;
 }
 
-#date-time{
+#workplace{
     list-style-type: none;
     font-size:smaller;
 }
@@ -40,6 +45,12 @@ nav {
 
 a {
     color: #00FF2A;
+}
+
+form{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30%;
 }
 
 @media (max-width:480px) {
@@ -61,5 +72,11 @@ a {
     body {
         border: none;
         padding: 0%;
+    }
+}
+
+@media (max-width:480px) {
+    form {
+        grid-template-columns: 90%;
     }
 }
