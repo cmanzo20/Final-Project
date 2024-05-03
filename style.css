@@ -6,6 +6,11 @@ body {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+#author-picture{
+    float: right;
+    height: 200px;
+}
+
 h1 {
     text-align: center;
     color: #18EEF2;
@@ -35,6 +40,14 @@ nav {
 
 a {
     color: #00FF2A;
+}
+
+@media (max-width:480px) {
+    #author-picture {
+        position: absolute;
+        right: 10px;
+        height: 100px;
+    }
 }
 
 @media (max-width:480px) {
