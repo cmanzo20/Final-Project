@@ -68,16 +68,16 @@ form{
 
 @media (max-width:480px) {
     #author-picture {
-        position: absolute;
-        right: 5px;
-        top: 75px;
-        height: 100px;
+        display: block;
+        height: 150px;
     }
 }
 
 @media (max-width:480px) {
     nav {
         flex-wrap: wrap;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }
 
