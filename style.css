@@ -38,6 +38,7 @@ h3 {
 
 p {
     text-align: center;
+    font-size: large;
 }
 
 ul {
@@ -54,6 +55,7 @@ nav {
     justify-content: space-between;
     max-width: 75%;
     margin: auto;
+    margin-top: 20px;
 }
 
 a {
