@@ -7,8 +7,18 @@ body {
 }
 
 #author-picture{
-    float: right;
     height: 200px;
+    margin: auto;
+    display: block;
+}
+
+.sections{
+    background-color: #222222;
+    padding: 1%;
+    margin: auto;
+    margin-top: 1%;
+    border-radius: 2%;
+    max-width: 75%;
 }
 
 h1 {
@@ -41,6 +51,8 @@ ul {
 nav {
     display: flex;
     justify-content: space-between;
+    max-width: 75%;
+    margin: auto;
 }
 
 a {
