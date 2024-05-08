@@ -90,6 +90,12 @@ form{
 }
 
 @media (max-width:480px) {
+    .sections {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width:480px) {
     form {
         grid-template-columns: 90%;
     }
